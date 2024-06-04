@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking App - Home</title>
+    <style>
+        body {
+            background-image: url("https://img.freepik.com/free-vector/abstract-technology-particle-background_23-2148426649.jpg?w=826&t=st=1717443074~exp=1717443674~hmac=eb136ba502d16ae9059a58e7b48a8365220e0ac8e2fe692ed30e3ba98632c1d9");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100vw;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 2em 3em;
+            border-radius: 8px;
+            height:400px;
+            width:760px;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style:italic;
+            font-weight:bold;
+            font-size:50px;
+            text-align:center;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+        }
+
+        .btn {
+            background-color:DarkBlue;
+            color: #ffffff;
+            padding: 0.8em 2em;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .space{
+            padding:30x;
+            border-radius:10px;
+        }
+
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 1em 2em;
+            }
+
+            .btn {
+                padding: 0.6em 1.5em;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Provide a direct link to your image file -->
+        <div class="d-flex flex-row">
+            <div class="d-flex flex-column"><img src="https://img.freepik.com/premium-photo/neon-bank-building-black-background_99433-9811.jpg" style="border-radius:20px;
+            height:300px;
+            width:300px;
+            margin:30px;
+            padding:10px;
+            border-radius:40px;" alt="Bank App Icon" ></div>
+            <div class="space">
+                <div class="d-flex flex-column">
+                    <br>
+                    <br>
+                    <h2>Hi, There</h2>
+                    <h4 style="font-weight:bold;">The bank manager system</h4>
+                </div>
+                <br>
+                <div class="d-flex flex-column buttons">
+                    <a href="/login" class="btn">Login</a>
+                    <a href="/register" class="btn">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
